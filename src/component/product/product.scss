@@ -1,0 +1,144 @@
+@import '../../scss//variable';
+
+.product{
+    .container{
+        display: flex;
+        padding-top: $px30;
+    }
+    &__box{
+        width: 80%;
+    }
+    &__size{
+        width: 20%;
+        &>p{
+            font-size: $r-2;
+        }
+        &-list{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-row-gap: $px10;
+            margin-top: $px30;
+            input{
+                height: $px40;
+                width: $px40;
+                border: none;
+                background-color: $color-secondary2;
+                border-radius: 50%;
+                box-sizing: border-box;
+                text-transform: uppercase;
+                font-size: 1rem;
+                font-weight: bold;
+                &:hover{
+                    color: $color-white;
+                    background-color: $color-black;
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: $px20;
+    }
+    &__sort{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: $px30;
+        padding-right: $px30;
+        align-items: center;
+        &-title{
+            font-size: $r-1-6;
+            margin-right: $px20;
+            
+        }
+        &-box{
+            display: flex;
+        }
+        &-amount{
+            font-size: $r-1-5;
+        }
+    }
+    &__item{
+        text-align: center;
+        &:hover{
+            button{
+                background-color: $color-yellow;
+                cursor: pointer;
+            }
+        }
+        &-img{
+            height: 300px;
+            position: relative;
+            p{
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: $r-1-1;
+                background-color: $color-dark;
+                padding: $px5 $px10;
+                text-transform: capitalize;
+                color: $color-white;
+            }
+        }
+        &-name{
+            font-size: $r-2;
+            font-weight: 300;
+            margin-top: $px20;
+            
+        }
+        &-line{
+            background-color: $color-yellow;
+            padding: 1.2px 0;
+            width: $px20;
+            margin: 10px auto;
+        }
+        &-price{
+            font-size: $r-1-7;
+            font-weight: 300;
+            span{
+                font-size: 3rem;
+                font-weight: 600;
+            }
+        }
+        &-bonus{
+            font-size:$r-1-7;
+            color: $color-gray;
+        }
+        &>button{
+            width: 100%;
+            background-color: $color-black;
+            color: $color-white;
+            padding: $px10 0;
+            font-size: $r-1-7;
+            text-transform: capitalize;
+            margin-top: $px20;
+        }
+    }
+    &__loader{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: $color-black;
+        padding: $px7;
+        display: none;
+        z-index: 999;
+        &-item{
+            border: 5px solid $color-black;
+            border-radius: 50%;
+            border-top: 5px solid $color-white;
+            border-right: 5px solid $color-white;
+            border-bottom: 5px solid $color-white;
+            width: 50px;
+            height: 50px;
+            animation: spin .5s linear infinite;
+        }
+        
+    }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

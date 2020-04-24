@@ -1,0 +1,212 @@
+{
+    "Product": [
+        {
+            "id": "1",
+            "Img": "/images/product (1).jpg",
+            "Price": 10,
+            "Name": "Hoodie 1",
+            "AmountBonus":5,
+            "PriceBonus":2,
+            "Size":"xs"
+        },
+        {
+            "id": "2",
+            "Img": "/images/product (2).jpg",
+            "Price": 33.33,
+            "Name": "Hoodie 2",
+            "AmountBonus":3,
+            "PriceBonus":11.11,
+            "Size":"xs"
+        },
+        {
+            "id": "3",
+            "Img": "/images/product (3).jpg",
+            "Price": 220.20,
+            "Name": "Hoodie 3",
+            "AmountBonus":10,
+            "PriceBonus":22.02,
+            "Size":"s"
+        },
+        {
+            "id": "4",
+            "Img": "/images/product (4).jpg",
+            "Price": 130.8,
+            "Name": "Hoodie 4",
+            "AmountBonus":4,
+            "PriceBonus":32.7,
+            "Size":"s"
+        },
+        {
+            "id": "5",
+            "Img": "/images/product (5).jpg",
+            "Price": 80.7,
+            "Name": "Hoodie 5",
+            "AmountBonus":3,
+            "PriceBonus":26.9,
+            "Size":"m"
+        },
+        {
+            "id": "6",
+            "Img": "/images/product (6).jpg",
+            "Price": 10,
+            "Name": "Hoodie 6",
+            "AmountBonus":5,
+            "PriceBonus":2,
+            "Size":"m"
+        },
+        {
+            "id": "7",
+            "Img": "/images/product (7).jpg",
+            "Price": 50,
+            "Name": "Hoodie 7",
+            "AmountBonus":5,
+            "PriceBonus":10,
+            "Size":"ml"
+        },
+        {
+            "id": "8",
+            "Img": "/images/product (8).jpg",
+            "Price": 48,
+            "Name": "Hoodie 8",
+            "AmountBonus":4,
+            "PriceBonus":12,
+            "Size":"ml"
+        },
+        {
+            "id": "9",
+            "Img": "/images/product (9).jpg",
+            "Price": 20,
+            "Name": "Hoodie 9",
+            "AmountBonus":2,
+            "PriceBonus":10,
+            "Size":"l"
+        },
+        {
+            "id": "10",
+            "Img": "/images/product (10).jpg",
+            "Price": 400,
+            "Name": "Hoodie 10",
+            "AmountBonus":4,
+            "PriceBonus":100,
+            "Size":"l"
+        },
+        {
+            "id": "11",
+            "Img": "/images/product (11).jpg",
+            "Price": 30,
+            "Name": "Hoodie 11",
+            "AmountBonus":2,
+            "PriceBonus":15,
+            "Size":"xl"
+        },
+        {
+            "id": "12",
+            "Img": "/images/product (12).jpg",
+            "Price": 200,
+            "Name": "Hoodie 12",
+            "AmountBonus":10,
+            "PriceBonus":20,
+            "Size":"xl"
+        },
+        {
+            "id": "13",
+            "Img": "/images/product (13).jpg",
+            "Price": 30,
+            "Name": "Hoodie 13",
+            "AmountBonus":2,
+            "PriceBonus":15,
+            "Size":"xl"
+        },
+        {
+            "id": "14",
+            "Img": "/images/product (14).jpg",
+            "Price": 80,
+            "Name": "Hoodie 14",
+            "AmountBonus":2,
+            "PriceBonus":40,
+            "Size":"xl"
+        },
+        {
+            "id": "15",
+            "Img": "/images/product (15).jpg",
+            "Price": 80,
+            "Name": "Hoodie 15",
+            "AmountBonus":2,
+            "PriceBonus":40,
+            "Size":"xl"
+        },
+        {
+            "id": "16",
+            "Img": "/images/product (16).jpg",
+            "Price": 80,
+            "Name": "Hoodie 16",
+            "AmountBonus":2,
+            "PriceBonus":40,
+            "Size":"xl"
+        },
+        {
+            "id": "17",
+            "Img": "/images/product (17).jpg",
+            "Price": 80,
+            "Name": "Hoodie 17",
+            "AmountBonus":2,
+            "PriceBonus":40,
+            "Size":"xl"
+        },
+        {
+            "id": "18",
+            "Img": "/images/product (18).jpg",
+            "Price": 80,
+            "Name": "Hoodie 18",
+            "AmountBonus":2,
+            "PriceBonus":40,
+            "Size":"xl"
+        },
+        {
+            "id": "19",
+            "Img": "/images/product (19).jpg",
+            "Price": 10,
+            "Name": "Hoodie 19",
+            "AmountBonus":2,
+            "PriceBonus":5,
+            "Size":"xl"
+        },
+        {
+            "id": "20",
+            "Img": "/images/product (20).jpg",
+            "Price": 1000,
+            "Name": "Hoodie 20",
+            "AmountBonus":10,
+            "PriceBonus":100,
+            "Size":"xxl"
+        },
+        {
+            "id": "21",
+            "Img": "/images/product (21).jpg",
+            "Price": 300,
+            "Name": "Hoodie 21",
+            "AmountBonus":10,
+            "PriceBonus":30,
+            "Size":"xxl"
+        },
+        {
+            "id": "22",
+            "Img": "/images/product (22).jpg",
+            "Price": 400,
+            "Name": "Hoodie 22",
+            "AmountBonus":5,
+            "PriceBonus":80,
+            "Size":"xxl"
+        },
+        {
+            "id": "23",
+            "Img": "/images/product (23).jpg",
+            "Price": 1200,
+            "Name": "Hoodie 23",
+            "AmountBonus":2,
+            "PriceBonus":600,
+            "Size":"xxl"
+        }
+
+    ]
+}

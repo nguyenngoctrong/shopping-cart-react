@@ -1,0 +1,42 @@
+@import './variable';
+*,
+*::before,
+*::after{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: $px10;
+    font-family: $sub-font
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    padding-left: $px50;
+    padding-right: $px200;
+}
+button{
+    &:focus{
+        outline: 0;
+    }
+    border: none;
+}
+:focus {
+    outline: initial;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: initial;
+}
